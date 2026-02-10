@@ -13,3 +13,13 @@ function sayHello(navn) {
 }
 
 console.log("hej " + sayHello(navn));
+
+const square = n => n * n;
+
+console.log(square(5));
+
+const calculateVat = pris => {
+  return pris * 1.25;
+};
+
+console.log(calculateVat(100));
